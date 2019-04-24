@@ -1,6 +1,7 @@
 var compose = require('../composer');
-var ind = require('../index');
+const add = (...parms) => parms.reduce((a,b) => a+b);
+const mul = (...parms) => parms.reduce((a,b) => a*b);
 
 test('compose add and a digit and invoke mul', () => {
-    expect(compose(ind.mul, ind.add(1,2), 3)).toBe(9);
+    expect(compose(mul, add(1,2), 3)).toBe(9);
   });
