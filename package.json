@@ -1,0 +1,21 @@
+{
+  "name": "composer",
+  "version": "1.0.0",
+  "description": "compose everything you want. infinit composing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "NodeJs",
+    "JavaScript",
+    "Spread",
+    "operator",
+    "destructuring"
+  ],
+  "author": "Elias Rahmani",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
